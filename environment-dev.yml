@@ -1,0 +1,31 @@
+name: tomopyui
+channels:
+  - astra-toolbox
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - matplotlib
+  - ffmpeg
+  - dask
+  - dask-image
+  - olefile
+  - git
+  - pip
+  - tomopy
+  - dxchange
+  - jupyterlab
+  - astropy
+  - ipyfilechooser
+  - ipywidgets
+  - astra-toolbox
+  - bqplot
+  - pip:
+      - bqplot-image-gl
+      - pytest
+      - pytest-mock
+      - black
+      - pydantic
+      - solara
+      - reacton
+      - plotly

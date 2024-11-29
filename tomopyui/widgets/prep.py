@@ -23,6 +23,9 @@ if os.environ["cuda_enabled"] == "True":
 from tomopyui.widgets.styles import header_font_style, button_font_style
 
 
+from tomopyui.widgets.styles import header_font_style, button_font_style
+
+
 import tomopy.misc.corr as tomocorr
 
 
